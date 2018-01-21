@@ -10,3 +10,4 @@ Scala implementations of various algorithms
 ### Search Algorithms
 1. Linear search
 2. Binary search
+3. Jumpy search
