@@ -1,4 +1,4 @@
-package algos
+package sort
 
 /**
   * Created by nirbhaygupta on 1/21/18.
@@ -7,9 +7,9 @@ object SelectionSort {
   def sort(input: Array[Int]): Array[Int] = {
     var counter = 0;
     var output = input
-    while(counter < input.length) {
+    while (counter < input.length) {
       val minIndex = min(input, counter)
-      output = replace(output,counter, minIndex)
+      output = replace(output, counter, minIndex)
       counter = counter + 1
     }
     output
@@ -24,8 +24,8 @@ object SelectionSort {
 
   private def min(arr: Array[Int], startFrom: Int): Int = {
     var minIndex = startFrom;
-    for(i <- startFrom until arr.length) {
-      if(arr(i) < arr(minIndex)) {
+    for (i <- startFrom until arr.length) {
+      if (arr(i) < arr(minIndex)) {
         minIndex = i
       }
     }
