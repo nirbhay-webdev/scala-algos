@@ -4,7 +4,7 @@
 		module="scala-algos-new-build"
 		revision="0.1-SNAPSHOT"
 		status="integration"
-		publication="20180121144432"
+		publication="20180121162537"
 		e:sbtVersion="0.13" e:scalaVersion="2.10"
 	>
 		<description>
