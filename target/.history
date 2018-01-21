@@ -5,3 +5,6 @@ console
 run 
 console
 run
+clear
+clear()
+run
