@@ -25,4 +25,3 @@ object BubbleSort {
     input
   }
 }
-ggit
